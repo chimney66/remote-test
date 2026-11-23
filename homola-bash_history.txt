@@ -13,3 +13,18 @@ git status
 git remote add origin git@github.com:chimney66/remote-test.git
 git remote -v
 git push -u origin main
+touch homola-bash_history.txt
+ls
+git status
+git add .
+git status
+git commit -m "History of git commands was added"
+git status
+git log --oneline
+git push origin main
+git status
+git add .
+git status
+git commit -m "List of commands was added"
+git status
+git push origin main
