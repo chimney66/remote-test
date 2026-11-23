@@ -1,0 +1,15 @@
+mkdir git-uloha
+git init
+ls -a
+git status
+echo "https://github.com/chimney66/remote-test.git">homola.txt
+git status
+git add .
+git status
+git commit -m "Init"
+git log
+git remote -v
+git status
+git remote add origin git@github.com:chimney66/remote-test.git
+git remote -v
+git push -u origin main
